@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs",
-    "git": "git add . & git commit -m 'release' & push origin main"
+    "git": "git add . & git commit -m 'release' & git push origin main"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
