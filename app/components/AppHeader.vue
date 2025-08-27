@@ -10,7 +10,6 @@
             <h2 class="text-primary font-weight-bold arabic-text" style="font-size: 1.5rem;">
               مفاتيح الشامل
             </h2>
-            <p class="text-caption text-grey-600 ma-0">Professional Locksmith Services</p>
           </div>
         </div>
 
@@ -21,12 +20,7 @@
           {{ contactInfo.phone }}
         </v-btn>
 
-        <v-btn color="primary" variant="flat" prepend-icon="mdi-clock-alert-outline" class="floating-action"
-          :aria-label="'24/7 Emergency Service'" @click="scrollToContact">
-          24/7 Emergency
-        </v-btn>
 
-        <!-- Mobile Menu -->
         <v-app-bar-nav-icon class="d-md-none" @click="drawer = !drawer"
           :aria-label="'Open navigation menu'"></v-app-bar-nav-icon>
       </v-container>
